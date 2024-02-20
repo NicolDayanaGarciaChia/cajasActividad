@@ -1,0 +1,38 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: content-box;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 1px solid black;
+}
+
+.box-1, .box-2{
+  display: inline-block;
+  border: 2px rgb(238, 164, 130);
+  height: 30px;
+  overflow: hidden;
+}
+
+.box-1{
+  width: 28%;
+}
+
+.circulo{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.logo{
+  margin: 4px 1 1 3px;
+  position: relative;
+
+}
+
+
